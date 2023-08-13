@@ -102,7 +102,7 @@ window.MediaPlayer = window.MediaPlayer || {
                 $f("player").play();
             }
 
-            duration = $f("player").getStatus().bufferEnd;
+            duration = $f("player").getClip().fullDuration;
             if (seekTime > duration) return;
 
             curTime = $f("player").getTime();
