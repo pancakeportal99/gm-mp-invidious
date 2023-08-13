@@ -70,8 +70,8 @@ var options = {
 flowplayer("player", "flowplayer-3.2.16.swf", {clip: options});
 window.MediaPlayer = window.MediaPlayer || {
         isPlayerReady: function () {
-            return (typeof this.player === 'object') &&
-                (typeof this.player.paused === 'function');
+            return (typeof $f("player") === 'object') &&
+                (typeof $f("player").getState === 'function');
         },
 
         setVolume: function ( volume ) {
