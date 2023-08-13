@@ -1,5 +1,11 @@
 # gm-mp-invidious
 Replacement YouTube services for Garry's Mod Awesomium mediaplayer with Invidious
+
+## Usage
+```
+MediaPlayer.Services.yt.VideoUrlFormat = "https://pancakeportal99.github.io/gm-mp-invidious/youtube.html"
+```
+Execute above code with Lua
 ## License
 The Flowplayer Free version is released under the GNU GENERAL PUBLIC LICENSE Version 3 (GPL).
 
