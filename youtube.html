@@ -59,6 +59,7 @@ var options = {
 	autoPlay: true,
 	autoBuffering: true,
 	scaling: 'scale',
+	control: null,
 	onStart: function(clip) {
 		if (MediaPlayer.ytReady != true) {
 			$f("player").seek(MEDIAPLAYER_START_SEC);
