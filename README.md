@@ -1,5 +1,5 @@
 # gm-mp-invidious
-Replacement YouTube services for Garry's Mod Media Player with Invidious
+Replacement YouTube services for Garry's Mod (32bit) Media Player with Invidious
 ## License
 The Flowplayer Free version is released under the GNU GENERAL PUBLIC LICENSE Version 3 (GPL).
 
