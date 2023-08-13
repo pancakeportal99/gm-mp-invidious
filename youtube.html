@@ -68,7 +68,7 @@ var options = {
 	}
 };
 
-flowplayer("player", "flowplayer-3.2.16.swf", {clip: options});
+flowplayer("player", "flowplayer-3.2.16.swf", {clip: options,play: null,plugins: {controls: null}});
 window.MediaPlayer = window.MediaPlayer || {
         isPlayerReady: function () {
             return (typeof $f("player") === 'object') &&
